@@ -1,0 +1,45 @@
+/* Center the card on the page */
+.container {
+    margin-top: 15%;
+}
+
+/* Style the card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card header */
+.card-header {
+    background-color: #28a745;
+    color: #fff;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+
+/* Style the card body */
+.card-body {
+    padding: 30px;
+}
+
+/* Style the success message */
+.card-body p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}

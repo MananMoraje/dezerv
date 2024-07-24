@@ -1,0 +1,139 @@
+/* Center the card on the page */
+.container {
+    margin-top: 5%;
+}
+
+/* Style the card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff; /* Ensures background color is consistent */
+}
+
+/* Style the card header */
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+
+/* Style the form labels */
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the form control (file input) */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Style the submit button */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the search bar */
+#search {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Style the table container */
+.table-container {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space between search bar and table */
+    max-width: 100%; /* Ensure the container does not exceed its parent width */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word; /* Allow text wrapping within cells */
+    white-space: normal; /* Allow text wrapping and prevent overflow */
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.table tr:hover {
+    background-color: #e9ecef;
+}
+/* Style the table container */
+.table-container {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space between search bar and table */
+    max-width: 100%; /* Ensure the container does not exceed its parent width */
+    overflow: hidden; /* Hide any overflow */
+}
+
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fix the layout of the table */
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word; /* Allow text wrapping within cells */
+    white-space: normal; /* Allow text wrapping and prevent overflow */
+    max-width: 150px; /* Limit the width of each cell */
+    overflow: hidden; /* Hide overflow in table cells */
+}
+
+/* Optional: Add ellipsis for overflowed text */
+.table td {
+    text-overflow: ellipsis; /* Add ellipsis for text overflow */
+}
+
+/* Ensure the search form is displayed in a flex row */
+form.d-flex {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+}
+
+/* Style for the input field */
+.form-control {
+    flex: 1; /* Allow the input field to take up remaining space */
+    max-width: 200px; /* Limit width to ensure it fits with button */
+    height: 38px; /* Set height to match button */
+}
+
+/* Style for the button */
+.btn {
+    height: 38px; /* Set height to match input field */
+    margin-left: 10px; /* Add gap between input field and button */
+}
